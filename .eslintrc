@@ -1,0 +1,23 @@
+{
+  "env": {
+    "browser": true, // window, alert, document, etc can be used
+    "es6": true, // new ES6 global variables such as Set, Map, etc can be used
+    "node": true // process, require, etc can be used
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018, // allows for the parsing of modern ECMAScript features
+    "sourceType": "module" // allows for the use of imports
+  },
+  "rules": {
+    // "no-console": ["warn"], // allows console.log() to be used
+    // "no-unused-vars": "warn", // warns if there are any unused variables
+    // "indent": ["error", 2], // enforces 2 space indentation
+    // "quotes": ["error", "single"], // enforces single quotes
+    // "semi": ["error", "always"], // enforces semi-colon usage
+    // "no-trailing-spaces": "error", // warns if there are trailing spaces
+    // "no-multiple-empty-lines": ["error", { "max": 1 }], // warns if there are multiple empty lines
+    // "camelcase": "warn", // warns if camelcase is not used
+    // "no-var": "error" // warns if var is used
+  },
+  "extends": ["airbnb-base"] // uses airbnb-base rules and prettier rules
+}
